@@ -1,0 +1,11 @@
+C:\Users\dougd\source\repos\Trab01\Trab01\bin\Debug\netcoreapp2.1\Trab01.deps.json
+C:\Users\dougd\source\repos\Trab01\Trab01\bin\Debug\netcoreapp2.1\Trab01.runtimeconfig.json
+C:\Users\dougd\source\repos\Trab01\Trab01\bin\Debug\netcoreapp2.1\Trab01.runtimeconfig.dev.json
+C:\Users\dougd\source\repos\Trab01\Trab01\bin\Debug\netcoreapp2.1\Trab01.dll
+C:\Users\dougd\source\repos\Trab01\Trab01\bin\Debug\netcoreapp2.1\Trab01.pdb
+C:\Users\dougd\source\repos\Trab01\Trab01\obj\Debug\netcoreapp2.1\Trab01.csprojAssemblyReference.cache
+C:\Users\dougd\source\repos\Trab01\Trab01\obj\Debug\netcoreapp2.1\Trab01.csproj.CoreCompileInputs.cache
+C:\Users\dougd\source\repos\Trab01\Trab01\obj\Debug\netcoreapp2.1\Trab01.AssemblyInfoInputs.cache
+C:\Users\dougd\source\repos\Trab01\Trab01\obj\Debug\netcoreapp2.1\Trab01.AssemblyInfo.cs
+C:\Users\dougd\source\repos\Trab01\Trab01\obj\Debug\netcoreapp2.1\Trab01.dll
+C:\Users\dougd\source\repos\Trab01\Trab01\obj\Debug\netcoreapp2.1\Trab01.pdb
