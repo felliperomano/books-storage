@@ -6,8 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-//Douglas Willian CB3005348
-//João Vitor Gino CB3005488
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using System.IO;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+//Fellipe Soares Romano CB3005411
+//Stefany Lisboa da Silva CB3005551
 namespace WebTrab01
 {
     public class Startup
@@ -25,6 +30,12 @@ namespace WebTrab01
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
             var _repo = new FakeBookRepository();
 
             app.Run(async (context) =>
@@ -33,6 +44,7 @@ namespace WebTrab01
                 await context.Response.WriteAsync(_repo.Reading.ToString());
                 await context.Response.WriteAsync(_repo.Read.ToString());
             });
+
         }
 
         static void ImprimeLista(BookList lista)
